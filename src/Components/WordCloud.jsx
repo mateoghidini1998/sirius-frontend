@@ -6,8 +6,7 @@ function WordCloud() {
  const [url, setUrl] = useState('');   
  const [words, setWords] = useState([]);
  const [ errorMessage, setErrorMessage ] = useState('');
- const [ isLoading, setIsLoading ] = useState(false);
- const [ error, setError ] = useState('');  
+ const [ isLoading, setIsLoading ] = useState(false); 
 
  const handleSubmit = async (event) => {
     event.preventDefault();
